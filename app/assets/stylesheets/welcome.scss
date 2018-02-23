@@ -1,11 +1,35 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-  background: white;
+@font-face {
+  font-family: 'zousan';
+  src: font-url('zousan.otf') format('truetype');
 }
+
+.zousan {
+  font-family: 'zousan';
+}
+body {
+  background: #fef7e5;
+}
+
 
 .top-image {
   margin-left: auto;
   margin-right: auto;
+}
+
+.top-header {
+  background: #E85C40;
+  ul{
+    width: 100%;
+    li{
+      color: white;
+      font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+      list-style: none;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-left: 2vw;
+    }
+  }
 }

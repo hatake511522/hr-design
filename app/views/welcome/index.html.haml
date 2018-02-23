@@ -1,18 +1,18 @@
 .container-fluid
-  .row.header
-    %ul
-      = image_tag 'logo.jpg', height: "100%", class: "header_logo"
-      %li 店舗紹介
-      %li イベント
-      %li ブログ
-      %li スペシャル
   .row
-    .header_image
-      %h2.zousan カナマチ
+    %nav.navbar.top-header
+      .collapse.navbar-collapse#navbarSupportedContent
+        %ul.navbar-nav.justify-content-end
+          %li.nav-item.nav-link.active 店舗紹介
+          %li.nav-item.nav-link イベント
+          %li.nav-item ブログ
+          %li.nav-item スペシャル
+  .row
+    .header_image.text-center
+      %h2.zousan カ ナ マ チ
       %h3.zousan ショクブンカ
   .row
     .col-md-12
-      = image_tag 'food.jpg', width: "90%", class: "top-image text-center"
 
   .row
     .col-md-4
