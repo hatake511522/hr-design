@@ -5,14 +5,8 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-  # 以下の3つを追加
-  username: hr-design
-  password: password
-  # RailsサーバとPostgreSQLサーバが同じ場合
-  host: localhost
+  adapter: sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
