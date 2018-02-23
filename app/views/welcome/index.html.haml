@@ -1,4 +1,15 @@
 .container-fluid
+  .row.header
+    %ul
+      = image_tag 'logo.jpg', height: "100%", class: "header_logo"
+      %li 店舗紹介
+      %li イベント
+      %li ブログ
+      %li スペシャル
+  .row
+    .header_image
+      %h2.zousan カナマチ
+      %h3.zousan ショクブンカ
   .row
     .col-md-12
       = image_tag 'food.jpg', width: "90%", class: "top-image text-center"
