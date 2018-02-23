@@ -1,6 +1,7 @@
 .container-fluid
   .row
     %nav.navbar.top-header
+      =link_to '金町食文化研究会', root_path,class: "navbar-brand"
       .collapse.navbar-collapse#navbarSupportedContent
         %ul.navbar-nav.justify-content-end
           %li.nav-item.nav-link.active 店舗紹介
@@ -9,8 +10,9 @@
           %li.nav-item スペシャル
   .row
     .header_image.text-center
-      %h2.zousan カ ナ マ チ
-      %h3.zousan ショクブンカ
+      .center_logo
+        %h1.zousan カ ナ マ チ
+        %h2.zousan ショクブ ンカ
   .row
     .col-md-12
 
