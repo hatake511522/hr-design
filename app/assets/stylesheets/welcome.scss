@@ -20,7 +20,7 @@ body {
 }
 
 .top-header {
-  padding-bottom:  0;
+  margin-bottom:  0;
   background: #E85C40;
   ul{
     width: 100%;
@@ -36,16 +36,68 @@ body {
 }
 
 .header_image{
-  height: 40vh;
-  background: grey;
+  height: 50vh;
+  background-image: url('toppicture_mini.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   .center_logo {
     padding-top: 15vh;
+    h1{
+      font-size: 6em;
+    }
+    h2{
+      font-size: 4em;
+    }
     .zousan{
       padding: 0;
       margin: 0;
-      color: #fef7e5;
-      text-shadow: 2px 2px 2px #E85C40;
+      color: #fdeec2;
+      text-shadow: 4px 4px 0px #E85C40;
       margin-bottom: 2 vh;
     }
   }
+}
+
+.attributes {
+  height: 15vh;
+  border: double 7px #e85c40;
+  background: white;
+  margin: 0;
+  ul{
+    width: 100%;
+    margin-top: 3%;
+    display: table;
+    table-layout: fixed;
+    li{
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      color: #e85c40;
+      font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+      list-style: none;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-left: 2vw;
+    }
+  }
+}
+
+.article-search {
+  margin-top: 5vh;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-list {
+  h1{
+    color: #e85c40;
+    font-family:  "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+    font-size: 8em;
+    font-weight: bold;
+  }
+  margin-top: 20vh;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
 }
