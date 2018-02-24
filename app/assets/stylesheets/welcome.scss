@@ -9,6 +9,9 @@
 .zousan {
   font-family: 'zousan';
 }
+.YuGothic{
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";  
+}
 body {
   background: #fef7e5;
 }
@@ -20,10 +23,20 @@ body {
 }
 
 .top-header {
+  height: 10vh;
   margin-bottom:  0;
   background: #E85C40;
+  .navbar-brand {
+    padding-left: 2%;
+    p{
+      color: white;
+    }
+  }
   ul{
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 3vh;
+    padding-right: 2%;
     li{
       color: white;
       font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
@@ -87,9 +100,17 @@ body {
 
 .article-search {
   margin-top: 5vh;
-  width: 30vw;
+  width: 40vw;
   margin-left: auto;
   margin-right: auto;
+  form{
+    border: solid 7px #e85c40;
+    :placeholder-shown { color: grey; }
+    ::-webkit-input-placeholder { color: grey; }
+    :-moz-placeholder { color: grey; opacity: 1; }
+    ::-moz-placeholder { color: grey; opacity: 1; }
+    :-ms-input-placeholder { color: grey; }
+  }
 }
 
 .article-list {

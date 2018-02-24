@@ -11,6 +11,7 @@ gem 'haml-rails'
 gem 'erb2haml'
 gem 'bootstrap-sass'
 
+gem 'font-awesome-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

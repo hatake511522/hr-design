@@ -2,10 +2,10 @@
   .row
     %nav.navbar.top-header.navbar-fixed-top
       .navbar-brand
-        %p what is
-        %p.zousan ショクブンカ
+        %p.text-center.YuGothic What is
+        %p.zousan.text-center ショクブンカ
       .collapse.navbar-collapse#navbarSupportedContent
-        %ul.navbar-nav.justify-content-end
+        %ul.navbar-nav.pull-right
           %li.nav-item.nav-link.active 店舗紹介
           %li.nav-item.nav-link イベント
           %li.nav-item ブログ
@@ -27,7 +27,9 @@
 
   .row.article-search
     %form
-      %input.form-control
+      %input{class: "form-control", placeholder: "気になるワードを検索"}
+        %i.fas.fa-search
+
   .row.article-list
     %h1.text-center 記事
     .col-md-4
